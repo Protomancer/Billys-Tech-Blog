@@ -1,0 +1,36 @@
+{
+  "name": "billys-tech-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon",
+    "plant": "seeds",
+    "gitPush": "git add . && git commit -m \"updating tech-blog\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Protomancer/Billys-Tech-Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Protomancer/Billys-Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/Protomancer/Billys-Tech-Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "express-session-sequelize": "^2.3.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^9.0.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.18",
+    "sequelize": "^6.21.2"
+  }
+}
