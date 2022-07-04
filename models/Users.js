@@ -16,12 +16,12 @@ Users.init (
             primaryKey: true,
             autoIncrement: true,
         },
-        user_name: {
+        users_name: {
             type: DataTypes.STRING,
             allowNull: false,
             unique: true
         },
-        user_password: {
+        users_password: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
