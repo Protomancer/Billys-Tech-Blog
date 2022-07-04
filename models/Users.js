@@ -40,6 +40,7 @@ Users.init (
                 return updateUser;
             }
         },
+        sequelize,
         timestamps: false,
         freezeTableName: true,
         underscored: true,
