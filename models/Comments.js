@@ -21,14 +21,6 @@ Comments.init({
             model: 'users'
         }
     },
-    users_id: {
-        type: Datatypes.INTEGER,
-        allowNull: false,
-        references: {
-            model: 'users',
-            key: 'id'
-        }
-    },
     posts_id: {
         type: Datatypes.INTEGER,
         allowNull: false,
